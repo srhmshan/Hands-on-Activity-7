@@ -1,0 +1,15 @@
+[workstations]
+192.168.5.46 ansible_python_interpreter=/usr/bin/python3
+192.168.5.59 ansible_python_interpreter=/usr/bin/python3
+
+[web_servers]
+192.168.5.46 ansible_python_interpreter=/usr/bin/python3
+192.168.5.59 ansible_python_interpreter=/usr/bin/python3
+192.168.5.217
+
+[db_servers]
+192.168.5.217
+192.168.5.80 ansible_python_interpreter=/usr/bin/python3
+
+[file_servers]
+192.168.5.80 ansible_python_interpreter=/usr/bin/python3
